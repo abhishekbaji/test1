@@ -264,7 +264,9 @@ img {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
+.tl{
+  text-align: center !important;
+}
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -297,6 +299,16 @@ img {
   .text {
     font-size: 11px;
   }
+}
+.t1 {
+  float: left;
+  position: relative;
+  left: 92px;
+}
+.t2 {
+  float: right;
+  position: relative;
+  right: 72px;
 }
 .card {
   margin: auto;
@@ -365,6 +377,12 @@ a:hover {
   background-color: #f2f2f27d;
   width: 110px;
 }
+.padding{
+  padding: 5px 1px 5px 9px;
+}
+.text-position1{
+  text-align: center;
+ }
 .text-box {
   padding-left: 50px;
   width: 151px;
