@@ -1,9 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-
-
-article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -23,11 +20,6 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 body {
 	margin: 0;
@@ -128,9 +120,19 @@ input, select, textarea {
 				line-height: 1.5;
 				font-weight: 600;
 			}
+			.more {
+				position: absolute;
+				top: 25px !important;
+				left: 0px;
+				right: 0;
+				text-align: center;
+				display: block;
+				z-index: 99;
+				overflow: visible;
+			}
 			.more1 {
 				position: relative;
-				top: -580px !important;
+				top: -460px !important;
 				left: 0px;
 				right: 0;
 				text-align: center;
@@ -152,9 +154,29 @@ input, select, textarea {
 			.p1 {
 				font-size: 12px !important;
 			}
+			.more2 {
+				position: relative;
+				top: -450px !important;
+				left: 0px;
+				right: 0;
+				text-align: center;
+				display: block;
+				z-index: 99;
+				overflow: visible;
+			}
 
 		}
 		.more1 {
+			position: relative;
+			top: -295px;
+			left: 0px;
+			right: 0;
+			text-align: center;
+			display: block;
+			z-index: 99;
+			overflow: visible;
+		}
+		.more2 {
 			position: relative;
 			top: -295px;
 			left: 0px;
